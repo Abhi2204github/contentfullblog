@@ -52,6 +52,101 @@ h1{
 }
 
 .post {
+  padding-top: 2rem;
   width: 50%;
   margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+  color: black;
+}
+
+.Container{
+  background-image: url('./Backgraound_image.jpg');
+  background-size: cover;
+  overflow-y: hidden;
+
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  align-items: center;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover:not(.logo) {
+  background-color: #E0B332;
+  color: black;
+}
+
+.footer{
+  background-color: #333;
+	box-sizing: border-box;
+	width: 100%;
+  height: 200px;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+  display: inline-block;
+	vertical-align: top;
+  bottom: 0;
+}
+
+.footer-left, .footer-center, .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-left{
+  width : 30%;
+  color: white;
+}
+
+h6{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: small;
+}
+
+a{
+  justify-content: space-around; 
+}
+
+.aboutus{
+  color: wheat;
+  font-size: small;
+  font-weight: 500;
+}
+
+.footer-center{
+  width: 40%;
+  color:white;
+}
+
+.copywrite{
+  font-weight: 100;
+  color: whitesmoke 0.5;
+}
+
+.footer-right{
+  width:20%;
+  margin: 0;
+}
+
+.topnav img {
+  width : 20%;
+  
+}
+
+.footer-left img{
+  width: 70%;
 }

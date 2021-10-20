@@ -1,9 +1,10 @@
 import React from "react";
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 
+//{blogarticle}
 const Blogarticle = (props) => {
     // console.log(typeof documentToReactComponents)
-
+//console.log(blogarticle)
     // const content =
     return(
         <div className ="container">
